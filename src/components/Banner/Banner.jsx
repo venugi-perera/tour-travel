@@ -1,5 +1,5 @@
 import React from "react";
-import TravelImg from "../../assets/travelbox.png";
+import TravelImg from "../../assets/travelbox1.png";
 import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
 import { IoIosWifi } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
@@ -25,15 +25,14 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold"
                 >
-                  Explore all corners of The world with us
+                  Explore all corners of The SRI LANKA with us
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-8"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio ratione ex alias quis magni at optio
+                  And uncover the island's diverse beauty, from its ancient
+                  ruins to breathtaking beaches and lush mountains.
                   <br />
                 </p>
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">

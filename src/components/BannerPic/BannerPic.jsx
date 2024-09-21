@@ -5,7 +5,7 @@ const BannerPic = ({ img }) => {
     backgroundImage: `url(${img})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "400px",
+    height: "500px",
   };
   return (
     <div data-aos="zoom-in" className="h-[400px] w-full" style={bgImage}></div>

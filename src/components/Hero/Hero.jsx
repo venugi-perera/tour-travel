@@ -7,7 +7,7 @@ const Hero = () => {
     <div className=" bg-black/20 h-full">
       <div className="h-full flex justify-center items-center p-4 bg-primary/10">
         <div className="container grid grid-cols-1 gap-4">
-          <div className="text-white">
+          {/* <div className="text-white">
             <p data-aos="fade-up" className="text-sm">
               Our Packages
             </p>
@@ -18,8 +18,8 @@ const Hero = () => {
             >
               Search Your Destination
             </p>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             data-aos="fade-up"
             data-aos-delay="600"
             className="space-y-4 bg-white rounded-md p-4 relative"
@@ -73,7 +73,7 @@ const Hero = () => {
             <button className="bg-gradient-to-r from-primary to-secondary text-white hover:scale-105 px-4 py-2 rounded-full duration-200 absolute -bottom-5 left-1/2 -translate-x-1/2">
               Search Now
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

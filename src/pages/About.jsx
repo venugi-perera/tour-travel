@@ -11,25 +11,46 @@ const About = () => {
             About us
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-            repudiandae, laboriosam expedita nostrum tempora, consectetur
-            itaque, voluptate error aperiam corrupti ullam aspernatur a!
-            Dolorem, reprehenderit amet quidem deleniti iure rem vel a enim
-            ipsam hic numquam consequatur eius id eaque accusamus repudiandae
-            impedit, quisquam non, harum inventore ratione? Tempora voluptatum
-            ut eligendi corrupti esse, repellat nesciunt illum facilis officiis?
-            Nisi quidem officiis asperiores nostrum ipsa maiores explicabo quia!
-            Corporis provident asperiores fuga eligendi rem temporibus possimus
-            autem excepturi! Facilis sunt corrupti nesciunt asperiores, ab
-            consectetur doloremque, velit a mollitia possimus quaerat!
+            Welcome to Red Rover Tours by Red, your gateway to exploring the
+            hidden gems of Sri Lanka!
+          </p>
+          <br />
+
+          <p>
+            At Red Rover Tours, we are passionate about creating unforgettable
+            travel experiences for both local adventurers and international
+            explorers. With a deep love for Sri Lanka's rich culture, stunning
+            landscapes, and vibrant history, we provide tailored tour services
+            that cater to all types of travelers.
+          </p>
+          <br />
+
+          <p>
+            Whether you're a foreign tourist looking to immerse yourself in the
+            beauty of Sri Lanka or a local seeking a fresh perspective on the
+            wonders of your homeland, we’ve got something special for you. From
+            guided tours through ancient landmarks and UNESCO World Heritage
+            Sites to off-the-beaten-path adventures in scenic tea plantations
+            and pristine beaches, we ensure every journey is unique and
+            memorable.
+          </p>
+          <br />
+
+          <p>
+            Our expert guides, with extensive knowledge of Sri Lanka's history,
+            culture, and natural beauty, are dedicated to providing personalized
+            service and insider insights. With Red Rover Tours, you'll
+            experience more than just sightseeing—you'll dive into the heart of
+            Sri Lanka, creating lasting memories and connections with its people
+            and places.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-            suscipit minus similique aliquam recusandae quisquam id nulla
-            tempora voluptate vero.
+            Join us at Red Rover Tours by Red and let’s discover Sri Lanka
+            together, one unforgettable adventure at a time.
           </p>
+          <br />
+          <p>Your Journey, Our Passion.</p>
         </div>
       </div>
       <Location />

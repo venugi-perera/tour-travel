@@ -1,64 +1,66 @@
 import React from "react";
 import PlaceCard from "./PlaceCard";
-import Img1 from "../../assets/places/boat.jpg";
-import Img2 from "../../assets/places/tajmahal.jpg";
-import Img3 from "../../assets/places/water.jpg";
-import Img4 from "../../assets/places/place4.jpg";
-import Img5 from "../../assets/places/place5.jpg";
-import Img6 from "../../assets/places/place6.jpg";
+import Img1 from "../../assets/places/sigiriya-4.jpg";
+import Img2 from "../../assets/places/udawalawa.jpg";
+import Img3 from "../../assets/places/fort.jpg";
+import Img4 from "../../assets/places/relic.jpg";
+import Img5 from "../../assets/places/bridge.jpg";
+import Img6 from "../../assets/places/beach.jpg";
 
 const PlacesData = [
   {
     img: Img1,
-    title: "Boat",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Sigiriya",
+    location: "Sigiriya",
+    description:
+      "Sigiriya, also known as Lion Rock, is an ancient rock fortress located in Sri Lanka. It is renowned for its stunning frescoes, gardens, and its historical significance as a royal palace and Buddhist monastery.",
     price: 6700,
-    type: "Cultural Relax",
+    type: "Cultural, Historical",
   },
   {
     img: Img2,
-    title: "Taj Mahal",
-    location: "India",
+    title: "Udawalawe National Park",
+    location: "Sri Lanka",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "Udawalawe National Park is a wildlife sanctuary in Sri Lanka known for its large population of elephants, as well as leopards, water buffalo, and a variety of bird species.",
     price: 6700,
-    type: "Cultural Relax",
+    type: "Wildlife, Adventure",
   },
   {
     img: Img3,
-    title: "Underwater",
-    location: "US",
+    title: "Galle Fort",
+    location: "Galle, Sri Lanka",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "Galle Fort is a UNESCO World Heritage Site and an iconic historical landmark. It was originally built by the Portuguese and later expanded by the Dutch, offering stunning views of the ocean and colonial architecture.",
     price: 6200,
-    type: "Cultural Relax",
+    type: "Cultural, Historical",
   },
   {
     img: Img4,
-    title: "Sydney",
-    location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Temple of the Sacred Tooth Relic",
+    location: "Kandy, Sri Lanka",
+    description:
+      "The Temple of the Sacred Tooth Relic, located in the city of Kandy, is one of the most sacred Buddhist sites in the world, housing a relic of the tooth of the Buddha.",
     price: 6700,
-    type: "Cultural Relax",
+    type: "Cultural, Religious",
   },
   {
     img: Img5,
-    title: "Los Angeles",
-    location: "United states",
+    title: "Nine Arches Bridge",
+    location: "Ella, Sri Lanka",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "The Nine Arches Bridge is an architectural marvel located in Ella, Sri Lanka. It is famous for its stunning views and the picturesque train rides that pass through the lush green tea plantations.",
     price: 6700,
-    type: "Cultural Relax",
+    type: "Scenic, Architectural",
   },
   {
     img: Img6,
-    title: "Los Vegas",
-    location: "California",
+    title: "Bentota Beach",
+    location: "Bentota, Sri Lanka",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "Bentota Beach is a popular tourist destination in Sri Lanka known for its golden sandy beaches, water sports, and serene atmosphere, perfect for relaxation and adventure.",
     price: 6200,
-    type: "Cultural Relax",
+    type: "Beach, Relax",
   },
 ];
 
