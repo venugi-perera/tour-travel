@@ -96,9 +96,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div>
-            <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white"></div>
-          </div>
+          <div></div>
         </div>
       </div>
     </>
