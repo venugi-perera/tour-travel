@@ -18,7 +18,7 @@ const BlogsData = [
     title: "Nine Arches Bridge",
     description:
       "The Nine Arches Bridge, located in Ella, Sri Lanka, is one of the most iconic bridges in the world. It was constructed during the British colonial period, primarily out of stone and brick, without the use of steel. Surrounded by lush green forests and tea plantations, this architectural marvel offers a stunning view, especially when trains pass over the bridge. Visitors can explore the area by foot, taking in the serene atmosphere and beautiful scenery that surrounds this engineering masterpiece.",
-    author: "Someone",
+    // author: "Someone",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const BlogsData = [
     title: "Galle Fort",
     description:
       "Galle Fort, a UNESCO World Heritage Site, is located in the coastal city of Galle, Sri Lanka. Built by the Portuguese in the 16th century and extensively fortified by the Dutch, it showcases a unique blend of European architecture with South Asian traditions. Walking through the cobblestone streets, visitors are transported back in time, with historic buildings, churches, and museums to explore. The fort is also surrounded by stunning ocean views, making it a perfect destination for history enthusiasts and nature lovers alike.",
-    author: "Someone",
+    // author: "Someone",
   },
 ];
 

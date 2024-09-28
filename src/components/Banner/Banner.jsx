@@ -35,7 +35,7 @@ const Banner = () => {
                   ruins to breathtaking beaches and lush mountains.
                   <br />
                 </p>
-                <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
+                {/* <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">
                       <MdFlight className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
@@ -56,7 +56,7 @@ const Banner = () => {
                       <p>Foods</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

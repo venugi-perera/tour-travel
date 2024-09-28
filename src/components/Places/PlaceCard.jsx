@@ -35,9 +35,7 @@ const PlaceCard = ({
             <div className="opacity-70">
               <p>{type}</p>
             </div>
-            <div>
-              <p className="text-2xl font-bold">${price}</p>
-            </div>
+            <div>{/* <p className="text-2xl font-bold">${price}</p> */}</div>
           </div>
         </div>
       </div>
