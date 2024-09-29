@@ -51,12 +51,12 @@ const Footer = () => {
               <p className="text-sm"></p>
               <br />
               <div className="flex items-center gap-3 ">
-                <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
+                {/* <FaLocationArrow /> */}
+                {/* <p>Noida, Uttar Pradesh</p> */}
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
-                <p>+91 123456789</p>
+                <p>+94 77 480 5199</p>
               </div>
               {/* social handles */}
               <div>

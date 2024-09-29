@@ -250,7 +250,7 @@ const Home = () => {
         <BlogsComp />
         <Banner />
         <BannerPic img={Banner2} />
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} /> */}
       </div>
     </>
