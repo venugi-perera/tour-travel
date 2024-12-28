@@ -1,15 +1,11 @@
 import React from "react";
-import Hero from "../components/Hero/Hero";
-import NatureVid from "../assets/video/jeep2.mp4";
-import BlogsComp from "../components/Blogs/BlogsComp";
-import Places from "../components/Places/Places";
-import Testimonial from "../components/Testimonial/Testimonial";
+import BannerImg from "../assets/cover-women1.jpg";
+import Jeep from "../assets/jeep.png";
+import Banner2 from "../assets/travel-cover3.jpg";
 import Banner from "../components/Banner/Banner";
 import BannerPic from "../components/BannerPic/BannerPic";
-import BannerImg from "../assets/cover-women1.jpg";
-import Banner2 from "../assets/travel-cover3.jpg";
-import OrderPopup from "../components/OrderPopup/OrderPopup";
-import Jeep from "../assets/jeep.png";
+import BlogsComp from "../components/Blogs/BlogsComp";
+import Places from "../components/Places/Places";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -20,7 +16,7 @@ const Home = () => {
   return (
     <>
       <div>
-        <div className="h-[600px] relative">
+        <div className="relative min-h-[600px] sm:h-[600px] h-auto">
           <div className="pt-20">
             <div className="container mx-auto flex flex-wrap md:flex-nowrap">
               {/* Left Side - BlogsComp */}
@@ -235,15 +231,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* <video
-            autoPlay
-            loop
-            muted
-            className="absolute right-0 top-0 h-[600px] w-full object-cover"
-            style={{ marginBottom: "1000px" }}
-          >
-            <source src={NatureVid} type="video/mp4" />
-          </video> */}
+          {/* Video or other elements */}
         </div>
         <Places handleOrderPopup={handleOrderPopup} />
         <BannerPic img={BannerImg} />

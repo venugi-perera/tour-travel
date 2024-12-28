@@ -1,9 +1,6 @@
 import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/logo.png";
-import { NavLink, Link } from "react-router-dom";
-import { FaCaretDown } from "react-icons/fa";
-import ResponsiveMenu from "./ResponsiveMenu";
-import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
 export const NavbarLinks = [
   {
@@ -41,6 +38,7 @@ const DropdownLinks = [
 
 const Navbar = ({ handleOrderPopup }) => {
   const [showMenu, setShowMenu] = useState(false);
+  console.log(showMenu);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -116,24 +114,58 @@ const Navbar = ({ handleOrderPopup }) => {
               </button> */}
               {/* Mobile Hamburger icon */}
               <div className="md:hidden block">
-                {showMenu ? (
-                  <HiMenuAlt1
-                    onClick={toggleMenu}
-                    className=" cursor-pointer transition-all"
-                    size={30}
-                  />
-                ) : (
-                  <HiMenuAlt3
-                    onClick={toggleMenu}
-                    className="cursor-pointer transition-all"
-                    size={30}
-                  />
-                )}
+                <ul className="flex items-center gap-6 ">
+                  <li className="py-4">
+                    <NavLink to="/" activeClassName="active">
+                      Home
+                    </NavLink>
+                  </li>
+                  <li className="py-4">
+                    <NavLink to="/blogs" activeClassName="active">
+                      Blogs
+                    </NavLink>
+                  </li>
+                  <li className="py-4">
+                    <NavLink to="/best-places" activeClassName="active">
+                      Places
+                    </NavLink>
+                  </li>
+                  <li className="py-4">
+                    <NavLink to="/about" activeClassName="active">
+                      About
+                    </NavLink>
+                  </li>
+                  {/* <li className="group relative cursor-pointer">
+                  <a
+                    href="/#home"
+                    className="flex h-[72px] items-center gap-[2px]"
+                  >
+                    Quick Links{" "}
+                    <span>
+                      <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
+                    </span>
+                  </a>
+                  <div className="absolute -left-9 z-[9999] hidden w-[150px] rounded-md bg-white p-2 text-black group-hover:block shadow-md ">
+                    <ul className="space-y-3">
+                      {DropdownLinks.map((data) => (
+                        <li key={data.name}>
+                          <a
+                            className="inline-block w-full rounded-md p-2 hover:bg-primary/20"
+                            href={data.link}
+                          >
+                            {data.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </li> */}
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} />
+        {/* <ResponsiveMenu setShowMenu={setShowMenu} showMenu={false} /> */}
       </nav>
     </>
   );

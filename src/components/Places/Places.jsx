@@ -1,11 +1,11 @@
 import React from "react";
-import PlaceCard from "./PlaceCard";
-import Img1 from "../../assets/places/sigiriya-4.jpg";
-import Img2 from "../../assets/places/udawalawa.jpg";
+import Img6 from "../../assets/places/beach.jpg";
+import Img5 from "../../assets/places/bridge.jpg";
 import Img3 from "../../assets/places/fort.jpg";
 import Img4 from "../../assets/places/relic.jpg";
-import Img5 from "../../assets/places/bridge.jpg";
-import Img6 from "../../assets/places/beach.jpg";
+import Img1 from "../../assets/places/sigiriya-4.jpg";
+import Img2 from "../../assets/places/udawalawa.jpg";
+import PlaceCard from "./PlaceCard";
 
 const PlacesData = [
   {
